@@ -137,7 +137,7 @@ const Chat = () => {
                         )
                     : null}
                 </Grid>
-                {thisSession && !thisSession.isSessionEnded ?(
+               {/*  {thisSession && !thisSession.isSessionEnded ?(
                     <Grid {...ChatStyles.toSendArea}>
                         <Textarea>
                             {...ChatStyles.textArea}
@@ -149,7 +149,7 @@ const Chat = () => {
 
                     </Grid>
                 )
-                }
+                } */}
             </Grid>
         </Grid>
     )
