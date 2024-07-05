@@ -4,14 +4,14 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import { Button, Grid } from "@mui/material";
 
-const API_KEY = "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";
+const API_KEY = " " // insert own API Key
 
 function App() {
   const [chatStarted, setChatStarted] = useState(false);
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I am ChatGPT!",
+      message: "Hello, I am Rex!",
       sender: "ChatGPT",
       direction: "incoming"
     }
@@ -80,19 +80,19 @@ function App() {
     <div className="App">
       {!chatStarted ? (
         <Grid container direction="column" alignItems="center" justifyContent="center" style={{ height: "100vh" }}>
-          <h1>Welcome to Our Service</h1>
-          <p>Your journey to great conversations starts here.</p>
+          <h1>Welcome to ReX</h1>
+          <p>Your virtual assistant</p>
           <Button variant="contained" color="primary" onClick={startChat}>
             Start Chat
           </Button>
         </Grid>
       ) : (
-        <div style={{ position: "relative", height: "800px", width: "700px" }}>
+        <div style={{ position: "relative", height: "800px", width: "700px"}}>
           <MainContainer>
             <ChatContainer>
               <MessageList
                 scrollBehavior='smooth'
-                typingIndicator={typing ? <TypingIndicator content="ChatGPT is typing" /> : null}>
+                typingIndicator={typing ? <TypingIndicator content="ReX is typing" /> : null}>
                 {messages.map((message, i) => {
                   return <Message key={i} model={message} />
                 })}
