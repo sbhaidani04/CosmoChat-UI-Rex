@@ -1,3 +1,26 @@
+## Description
+This is an app where the user can interact with an openAI powered career advice assistance named ReX. This is a beginner mission done during my internship with Radical AI with the aim of getting familiar with various tools.
+
+## Tools Used
+React, Node.js, Material UI, Framer Motion, Axios, Open AI
+
+## Running Instructions
+In terminal, 'npm start'. then click on the local host link.
+
+## Acknowledgement
+I would like to acknowledge the Radical AI Team for their tutorial videos, and Kyle P. for his help in troubleshooting any issues. As well, this video (https://youtu.be/Lag9Pj_33hM?feature=shared) helped me setup some features of the chat bot, specifically the OpenAI integration.
+
+# Some Snapshots
+
+## Start Page
+![Start Page Image](public/start%20page.png)
+
+## Chat Page
+![Chat Page](public/task%204.png)
+
+
+## Env Setup Information (for future reference)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
