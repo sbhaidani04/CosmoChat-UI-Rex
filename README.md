@@ -1,5 +1,5 @@
 ## Description
-This is an app where the user can interact with an openAI powered career advice assistance named ReX. This is a beginner mission done during my internship with Radical AI with the aim of getting familiar with various tools.
+This is an app where the user can interact with an OpenAI powered career advice assistance named ReX. This is a beginner mission done during my internship with Radical AI with the aim of getting familiar with various tools.
 
 ## Tools Used
 React, Node.js, Material UI, Framer Motion, Axios, Open AI
